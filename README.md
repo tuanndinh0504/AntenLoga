@@ -72,9 +72,3 @@ Dự án này ứng dụng **Ansys HFSS** kết hợp với **PyAEDT (Python)** 
 * **Ansys HFSS / Electronics Desktop** - Phân tích trường điện từ 3D.
 * **PyAEDT** - Thư viện Python chính thức kết nối Ansys Electronics Desktop.
 * **Python (NumPy, Matplotlib)** - Tính toán tham số anten và xử lý đồ thị.
-
----
-
-## 📝 License
-
-Dự án được phân phối dưới giấy phép [MIT License](LICENSE).
