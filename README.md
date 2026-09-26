@@ -1,20 +1,3 @@
-# =====================================================================
-# BƯỚC 1: CÁC CÂU LỆNH BASH XÓA LỊCH SỬ COMMIT CŨ VÀ PUSH SẠCH LÊN GIT
-# (Chạy các lệnh này trong Terminal / CMD tại thư mục dự án)
-# =====================================================================
-
-git checkout --orphan temp_branch
-git add .
-git commit -m "Cleaned sensitive credentials and updated configs"
-git branch -D main
-git branch -m main
-git push -f origin main
-
-
-# =====================================================================
-# BƯỚC 2: NỘI DUNG FILE README.MD BÊN DƯỚI (DÙNG ĐỂ COPY NGUYÊN BẢN VÀO GITHUB)
-# =====================================================================
-
 # 📡 LPDA Antenna Design & Simulation (500 MHz - 1.2 GHz)
 
 [![Ansys HFSS](https://img.shields.io/badge/Simulation-Ansys%20HFSS-red.svg)](https://www.ansys.com/products/electronics/ansys-hfss)
